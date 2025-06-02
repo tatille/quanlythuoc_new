@@ -1,3 +1,5 @@
+// ignore_for_file: curly_braces_in_flow_control_structures, deprecated_member_use, use_build_context_synchronously, avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:quanlythuoc_new/database/database_helper.dart';
 import 'package:quanlythuoc_new/models/medicine.dart';

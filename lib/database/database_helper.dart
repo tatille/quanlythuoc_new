@@ -236,8 +236,6 @@ class DatabaseHelper {
     await db.delete(historyTableName, where: 'id = ?', whereArgs: [id]);
   }
 
-  // TODO: Add methods for updating medicine intake history if needed (e.g., changing status)
-
   Future<void> deleteDatabase() async {
     String path = join(await getDatabasesPath(), 'medicine_app.db');
     await databaseFactory.deleteDatabase(path);

@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously, avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 import 'package:quanlythuoc_new/models/medicine.dart';

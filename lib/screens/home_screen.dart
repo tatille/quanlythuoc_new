@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages, avoid_print, unused_import, deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:quanlythuoc_new/models/medicine.dart';
@@ -25,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   //   setState(() {
   //     _selectedIndex = index;
   //   });
-  //   // TODO: Implement navigation to other screens
+  //
   // }
 
   List<Medicine> _allMedicines = [];

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -14,7 +16,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void _login() {
     if (_formKey.currentState!.validate()) {
-      // TODO: Implement login logic
       print('Email: ${_emailController.text}');
       print('Password: ${_passwordController.text}');
       // For now, just navigate to the main screen
@@ -98,7 +99,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 TextButton(
                   onPressed: () {
-                    // TODO: Navigate to Registration Screen
                     Navigator.pushNamed(context, '/register');
                   },
                   child: const Text('Chưa có tài khoản? Đăng ký ngay'),

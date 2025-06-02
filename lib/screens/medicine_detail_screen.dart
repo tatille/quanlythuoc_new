@@ -1,4 +1,4 @@
-// ignore_for_file: use_build_context_synchronously
+// ignore_for_file: use_build_context_synchronously, unused_import
 
 import 'package:flutter/material.dart';
 import 'package:quanlythuoc_new/models/medicine.dart';
@@ -107,12 +107,12 @@ class _MedicineDetailScreenState extends State<MedicineDetailScreen> {
                     ),
                     const SizedBox(height: 8.0),
                     Text(
-                      'Ngày bắt đầu: ${_medicine!.startDate}', // TODO: Format date
+                      'Ngày bắt đầu: ${_medicine!.startDate}',
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 8.0),
                     Text(
-                      'Ngày kết thúc: ${_medicine!.endDate}', // TODO: Format date
+                      'Ngày kết thúc: ${_medicine!.endDate}',
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 8.0),

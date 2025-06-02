@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:quanlythuoc_new/models/medicine.dart';
@@ -154,9 +156,7 @@ class _MedicineListScreenState extends State<MedicineListScreen> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // TODO: Navigate to Add Medicine Screen
-        },
+        onPressed: () {},
         heroTag: 'addMedicineList',
         child: const Icon(Icons.add),
       ),

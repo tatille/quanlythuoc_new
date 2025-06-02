@@ -82,7 +82,6 @@ class _HistoryScreenState extends State<HistoryScreen>
                       subtitle: Text(
                         'Thời gian uống: ${DateFormat('dd/MM/yyyy HH:mm').format(history.takenAt)}\nTrạng thái: ${history.status == 'taken' ? 'Đã uống' : history.status}',
                       ),
-                      // TODO: Add more details or actions if needed
                     ),
                   );
                 },
