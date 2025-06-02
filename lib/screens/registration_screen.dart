@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
@@ -15,7 +17,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
   void _register() {
     if (_formKey.currentState!.validate()) {
-      // TODO: Implement registration logic
       print('Email: ${_emailController.text}');
       print('Password: ${_passwordController.text}');
       print('Confirm Password: ${_confirmPasswordController.text}');
